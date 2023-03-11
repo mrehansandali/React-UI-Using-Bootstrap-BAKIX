@@ -1,0 +1,29 @@
+.buttons {
+    height: 86vh;
+    width: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(20, 15, 38);
+}
+.buttons button{
+    height: 15px;
+    width: 5px;
+    border-radius: 50%;
+    background-color: transparent;
+    margin-bottom: 0.5rem;
+    border: 2px solid white;
+}
+.buttons button:focus{
+    border: 2px solid blue;
+}
+.buttons{
+    position: relative;
+}
+.maintain{
+    position: absolute;
+    left: 10vw;
+    top: 0;
+}
+

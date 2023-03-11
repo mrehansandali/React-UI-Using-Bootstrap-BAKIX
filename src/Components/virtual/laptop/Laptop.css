@@ -1,0 +1,56 @@
+.main{
+    display: flex;
+    box-sizing: border-box;
+    width: 90vw;
+    color: white;
+    background-color: rgb(20, 15, 38);
+}
+.mrtext{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.pic{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pic img {
+    width: 40vw;
+    margin-top: 6vw;
+}
+.mrnumbers{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.line{
+    height: 0.8rem;
+    width: 100%;
+    border-radius: 2rem;
+    background: linear-gradient(to left, rgb(62, 49, 62) 30%, purple 0) right;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+.mrtext{
+    padding: 5rem 1rem;
+}
+.mrtext p {
+    font-size: 1.5rem;
+    color: grey;
+}
+.mrtext h1 {
+    font-size: 5rem;
+    margin: 2rem 0;
+}
+.mrnumbers h3{
+    font-size: 2.7rem;
+}
+.target{
+    text-align: right;
+}
+.mrnumbers p{
+    color: white;
+}
